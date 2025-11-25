@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.26" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <meta name="author" content="Sheep"><meta name="keywords" content="前端, 简历, 作品集, VuePress, 博客"><meta name="theme-color" content="#4f46e5"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>前端能力模型与成长路径 | Sheep Learn Diary</title><meta name="description" content="体验驱动的前端工程师 · 博客 · 简历 · 作品集">
+    <link rel="preload" href="/SheepLearnDiary/assets/style-CJZ81evD.css" as="style"><link rel="stylesheet" href="/SheepLearnDiary/assets/style-CJZ81evD.css">
+    <link rel="modulepreload" href="/SheepLearnDiary/assets/app-DWZtQ1uV.js"><link rel="modulepreload" href="/SheepLearnDiary/assets/frontend-roadmap.html-CON7RbUK.js">
+    <link rel="prefetch" href="/SheepLearnDiary/assets/about.html-DHybJ32_.js" as="script"><link rel="prefetch" href="/SheepLearnDiary/assets/contact.html-D3cwZeCG.js" as="script"><link rel="prefetch" href="/SheepLearnDiary/assets/demos.html-BToTCfh3.js" as="script"><link rel="prefetch" href="/SheepLearnDiary/assets/projects.html-D3_463pi.js" as="script"><link rel="prefetch" href="/SheepLearnDiary/assets/index.html-BBMq-xsF.js" as="script"><link rel="prefetch" href="/SheepLearnDiary/assets/resume.html-DCKc2C3K.js" as="script"><link rel="prefetch" href="/SheepLearnDiary/assets/tags.html-DK1v00z_.js" as="script"><link rel="prefetch" href="/SheepLearnDiary/assets/timeline.html-nPeNy5U2.js" as="script"><link rel="prefetch" href="/SheepLearnDiary/assets/design-system.html-4lin4ME9.js" as="script"><link rel="prefetch" href="/SheepLearnDiary/assets/index.html-DzGm92OX.js" as="script"><link rel="prefetch" href="/SheepLearnDiary/assets/404.html-Bkh94YYY.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-sidebar external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/SheepLearnDiary/"><img class="vp-site-logo" src="/SheepLearnDiary/images/logo.svg" alt="Sheep Learn Diary"><span class="vp-site-name vp-hide-mobile" aria-hidden="true">Sheep Learn Diary</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/SheepLearnDiary/" aria-label="首页"><!--[--><!--[--><!--]--><!--]-->首页<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link route-link-active auto-link" href="/SheepLearnDiary/blog/" aria-label="博客"><!--[--><!--[--><!--]--><!--]-->博客<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/SheepLearnDiary/about.html" aria-label="关于我"><!--[--><!--[--><!--]--><!--]-->关于我<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/SheepLearnDiary/tags.html" aria-label="标签"><!--[--><!--[--><!--]--><!--]-->标签<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/SheepLearnDiary/timeline.html" aria-label="时间线"><!--[--><!--[--><!--]--><!--]-->时间线<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/SheepLearnDiary/" aria-label="首页"><!--[--><!--[--><!--]--><!--]-->首页<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link route-link-active auto-link" href="/SheepLearnDiary/blog/" aria-label="博客"><!--[--><!--[--><!--]--><!--]-->博客<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/SheepLearnDiary/about.html" aria-label="关于我"><!--[--><!--[--><!--]--><!--]-->关于我<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/SheepLearnDiary/tags.html" aria-label="标签"><!--[--><!--[--><!--]--><!--]-->标签<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/SheepLearnDiary/timeline.html" aria-label="时间线"><!--[--><!--[--><!--]--><!--]-->时间线<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div vp-content><!--[--><!--]--><div id="content"><h1 id="前端能力模型与成长路径" tabindex="-1"><a class="header-anchor" href="#前端能力模型与成长路径"><span>前端能力模型与成长路径</span></a></h1><h2 id="_1-核心技术能力" tabindex="-1"><a class="header-anchor" href="#_1-核心技术能力"><span>1. 核心技术能力</span></a></h2><ul><li><strong>基础牢固</strong>：HTML 语义化、CSS 布局、JavaScript / TypeScript 语言特性</li><li><strong>框架掌握</strong>：至少熟练 Vue 与 React 之一，并理解响应式原理</li><li><strong>工程体系</strong>：模块化、构建优化、质量保障（Lint、Test、CI/CD）</li></ul><h2 id="_2-业务理解与抽象" tabindex="-1"><a class="header-anchor" href="#_2-业务理解与抽象"><span>2. 业务理解与抽象</span></a></h2><ul><li>透过需求看到流程、角色、指标，抽象出可复用的模型</li><li>善用状态图、时序图描述复杂度</li><li>在“快迭代”与“高质量”之间找到平衡</li></ul><h2 id="_3-深度方向" tabindex="-1"><a class="header-anchor" href="#_3-深度方向"><span>3. 深度方向</span></a></h2><table><thead><tr><th>方向</th><th>关键能力</th><th>业务价值</th></tr></thead><tbody><tr><td>体验设计</td><td>动效、可访问性、设计协作</td><td>转化率、品牌感知</td></tr><tr><td>可视化</td><td>图表、地图、3D、动画</td><td>决策效率、差异化</td></tr><tr><td>工程效率</td><td>CLI、脚手架、监控平台</td><td>人效、稳定性</td></tr></tbody></table><h2 id="_4-成长建议" tabindex="-1"><a class="header-anchor" href="#_4-成长建议"><span>4. 成长建议</span></a></h2><ol><li><strong>复盘驱动</strong>：每个项目输出“技术复盘 + 业务复盘”</li><li><strong>持续分享</strong>：写博客、内部分享、开源贡献，巩固认知</li><li><strong>跨界沟通</strong>：多与设计、后端、产品合作，理解全链路</li></ol></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="vp-meta-item last-updated"><span class="meta-item-label">最后更新: </span><time class="meta-item-info" datetime="2025-11-24T08:59:43.000Z" data-allow-mismatch>2025/11/24 16:59</time></div><!----></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/SheepLearnDiary/assets/app-DWZtQ1uV.js" defer></script>
+  </body>
+</html>
