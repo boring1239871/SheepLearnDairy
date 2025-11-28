@@ -1,0 +1,16 @@
+{
+  "name": "sheep_diary",
+  "version": "0.0.3",
+  "description": "Sheep's Learning Diary",
+  "scripts": {
+    "docs:dev": "npx --yes vuepress@2.0.0-rc.20 dev docs",
+    "docs:build": "npx --yes vuepress@2.0.0-rc.20 build docs",
+    "docs:clean-dev": "npx --yes vuepress@2.0.0-rc.20 dev docs --clean-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "2.0.0-rc.20"
+  }
+}
