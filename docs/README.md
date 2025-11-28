@@ -4,6 +4,7 @@ title: 技术博客
 description: 专注于前端开发与技术思考
 tagline: 代码与思考的栖息地
 heroImage: /images/logo.png
+# 更新于: 2024年部署测试
 actions:
   - text: 浏览博客
     link: /posts/blog/
